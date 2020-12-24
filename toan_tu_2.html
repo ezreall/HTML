@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="baitoan" type="number" >
+<input type="button" onclick="bamzo()" value="bam" >
+<p id="ketqua"> ketqua</p>
+<script>
+    function bamzo(){
+        let C=document.getElementById("baitoan").value;
+        let F=9*C/5+32
+        document.getElementById("ketqua").innerHTML=F;
+    }
+    // let C=+prompt("nhap do c");
+
+    //
+    // let f=9*C/5+32
+    //
+    // alert(f);
+</script>
+</body>
+</html>
